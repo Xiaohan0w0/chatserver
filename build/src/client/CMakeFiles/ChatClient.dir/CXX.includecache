@@ -379,6 +379,10 @@ chrono
 -
 ctime
 -
+semaphore.h
+-
+atomic
+-
 unistd.h
 -
 sys/socket.h
