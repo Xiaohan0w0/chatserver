@@ -125,6 +125,48 @@ ChatClient/fast:
 	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
 .PHONY : ChatClient/fast
 
+# Convenience name for target.
+src/client/CMakeFiles/ChatClient_autogen.dir/rule:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f CMakeFiles/Makefile2 src/client/CMakeFiles/ChatClient_autogen.dir/rule
+.PHONY : src/client/CMakeFiles/ChatClient_autogen.dir/rule
+
+# Convenience name for target.
+ChatClient_autogen: src/client/CMakeFiles/ChatClient_autogen.dir/rule
+
+.PHONY : ChatClient_autogen
+
+# fast build rule for target.
+ChatClient_autogen/fast:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient_autogen.dir/build.make src/client/CMakeFiles/ChatClient_autogen.dir/build
+.PHONY : ChatClient_autogen/fast
+
+ChatClient_autogen/mocs_compilation.o: ChatClient_autogen/mocs_compilation.cpp.o
+
+.PHONY : ChatClient_autogen/mocs_compilation.o
+
+# target to build an object file
+ChatClient_autogen/mocs_compilation.cpp.o:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/ChatClient_autogen/mocs_compilation.cpp.o
+.PHONY : ChatClient_autogen/mocs_compilation.cpp.o
+
+ChatClient_autogen/mocs_compilation.i: ChatClient_autogen/mocs_compilation.cpp.i
+
+.PHONY : ChatClient_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ChatClient_autogen/mocs_compilation.cpp.i:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/ChatClient_autogen/mocs_compilation.cpp.i
+.PHONY : ChatClient_autogen/mocs_compilation.cpp.i
+
+ChatClient_autogen/mocs_compilation.s: ChatClient_autogen/mocs_compilation.cpp.s
+
+.PHONY : ChatClient_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ChatClient_autogen/mocs_compilation.cpp.s:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/ChatClient_autogen/mocs_compilation.cpp.s
+.PHONY : ChatClient_autogen/mocs_compilation.cpp.s
+
 __/server/model/group.o: __/server/model/group.cpp.o
 
 .PHONY : __/server/model/group.o
@@ -233,6 +275,33 @@ main.cpp.s:
 	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainwindow.o: mainwindow.cpp.o
+
+.PHONY : mainwindow.o
+
+# target to build an object file
+mainwindow.cpp.o:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/mainwindow.cpp.o
+.PHONY : mainwindow.cpp.o
+
+mainwindow.i: mainwindow.cpp.i
+
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	cd /home/xiaohan/code/chat/chatserver/build && $(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -242,6 +311,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ChatClient"
+	@echo "... ChatClient_autogen"
+	@echo "... ChatClient_autogen/mocs_compilation.o"
+	@echo "... ChatClient_autogen/mocs_compilation.i"
+	@echo "... ChatClient_autogen/mocs_compilation.s"
 	@echo "... __/server/model/group.o"
 	@echo "... __/server/model/group.i"
 	@echo "... __/server/model/group.s"
@@ -254,6 +327,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainwindow.o"
+	@echo "... mainwindow.i"
+	@echo "... mainwindow.s"
 .PHONY : help
 
 

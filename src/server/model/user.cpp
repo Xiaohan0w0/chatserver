@@ -24,20 +24,20 @@ void User::setState(string state)
 {
     this->state = state;
 }
-int User::getId()
+int User::getId() const
 {
     return this->id;
 }
 
-string User::getName()
+string User::getName() const
 {
     return this->name;
 }
-string User::getPassword()
+string User::getPassword() const
 {
     return this->password;
 }
-string User::getState()
+string User::getState() const
 {
     return this->state;
 }

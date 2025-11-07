@@ -19,15 +19,15 @@ void Group::setDesc(string desc)
     this->desc = desc;
 }
 
-int Group::getId()
+int Group::getId() const
 {
     return this->id;
 }
-string Group::getName()
+string Group::getName() const
 {
     return this->name;
 }
-string Group::getDesc()
+string Group::getDesc() const
 {
     return this->desc;
 }

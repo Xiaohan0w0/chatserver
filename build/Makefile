@@ -136,6 +136,19 @@ ChatClient/fast:
 	$(MAKE) -f src/client/CMakeFiles/ChatClient.dir/build.make src/client/CMakeFiles/ChatClient.dir/build
 .PHONY : ChatClient/fast
 
+#=============================================================================
+# Target rules for targets named ChatClient_autogen
+
+# Build rule for target.
+ChatClient_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ChatClient_autogen
+.PHONY : ChatClient_autogen
+
+# fast build rule for target.
+ChatClient_autogen/fast:
+	$(MAKE) -f src/client/CMakeFiles/ChatClient_autogen.dir/build.make src/client/CMakeFiles/ChatClient_autogen.dir/build
+.PHONY : ChatClient_autogen/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +159,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... ChatServer"
 	@echo "... ChatClient"
+	@echo "... ChatClient_autogen"
 .PHONY : help
 
 

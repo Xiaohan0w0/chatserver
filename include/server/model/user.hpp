@@ -15,10 +15,10 @@ public:
     void setPassword(string password);
     void setState(string state);
 
-    int getId();
-    string getName();
-    string getPassword();
-    string getState();
+    int getId() const;
+    string getName() const;
+    string getPassword() const;
+    string getState()const;
 
 private:
     int id;

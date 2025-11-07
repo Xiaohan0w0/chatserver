@@ -13,9 +13,9 @@ public:
     void setName(string name);
     void setDesc(string desc);
 
-    int getId();
-    string getName();
-    string getDesc();
+    int getId() const;
+    string getName() const;
+    string getDesc() const;
     vector<GroupUser> &getUsers();
 
 private:
