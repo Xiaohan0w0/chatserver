@@ -1,10 +1,15 @@
 file(REMOVE_RECURSE
   "../../../bin/ChatClient"
   "../../../bin/ChatClient.pdb"
+  "CMakeFiles/ChatClient_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/ChatClient_autogen.dir/ParseCache.txt"
+  "ChatClient_autogen"
+  "CMakeFiles/ChatClient.dir/ChatClient_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/ChatClient.dir/__/server/model/group.cpp.o"
   "CMakeFiles/ChatClient.dir/__/server/model/groupuser.cpp.o"
   "CMakeFiles/ChatClient.dir/__/server/model/user.cpp.o"
   "CMakeFiles/ChatClient.dir/main.cpp.o"
+  "CMakeFiles/ChatClient.dir/mainwindow.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
