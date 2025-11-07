@@ -3,6 +3,9 @@ The source code of the cluster server and client that can work in the nginx tcp 
 
 ## Compilation method
 cd build
+
 rm -rf *
+
 cmake ..
+
 make
